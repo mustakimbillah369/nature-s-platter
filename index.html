@@ -37,7 +37,7 @@
 <body class="font-sora">
   <header>
     <!-- Navbar section  -->
-     <nav  class="border-b-2 border-green-500 md:border-b-0">
+    <nav class="border-b-2 border-green-500 md:border-b-0">
       <div class="flex justify-between items-center md:mx-36 mx-6 my-6">
 
         <div>
@@ -65,34 +65,241 @@
         </div>
 
       </div>
-     </nav>
+    </nav>
 
-     <!-- Banner Section Start  -->
-      <section class="relative bg-gradient-to-t from-[#EFEBE3] to-[#FFFFFF]">
-        <div class="mt-14 md:mx-36 mx-6 my-6 flex flex-col justify-center items-center">
+    <!-- Banner Section Start  -->
+    <section class="relative bg-gradient-to-t from-[#EFEBE3] to-[#FFFFFF]">
+      <div class="mt-14 md:mx-36 mx-6 my-6 flex flex-col justify-center items-center">
 
-          <h1 class="text-5xl text-center font-normal">Freshness <span class="text-[#179800]">You Can <br>
+        <h1 class="text-5xl text-centltext-sm">Freshness <span class="text-[#179800]">You Can <br>
             Count</span> On, Prices You’ll Love!</h1>
-          <p class="text-gray-600 text-xl my-6 text-center">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br>
-             staples, we’ve got you covered every day!</p>
-          <img class="pt-6" src="image/hero-vegetables.png" alt="">
+        <p class="text-gray-600 text-xl my-6 text-center">Shop your daily essentials at unbeatable prices. From fresh
+          produce to pantry <br>
+          staples, we’ve got you covered every day!</p>
+        <img class="pt-6" src="image/hero-vegetables.png" alt="">
 
-        </div>
-        <!-- Animations Div  -->
-         <div class="">
-          <img class="absolute top-12 left-8 md:left-32 w-16 md:w-20 animate-spin" src="image/vegetable-busket.png" alt="">
+      </div>
+      <!-- Animation Div  -->
+      <div class="">
+        <img class="absolute top-12 left-8 md:left-32 w-16 md:w-20 animate-spin" src="image/vegetable-busket.png"
+          alt="">
 
-          <img class="absolute top-12 right-8 md:right-32 w-16 md:w-20 animate-spin" src="image/vegetable-busket.png" alt="">
+        <img class="absolute top-12 right-8 md:right-32 w-16 md:w-20 animate-spin" src="image/vegetable-busket.png"
+          alt="">
 
-          <img class="absolute top-20 right-4 md:right-16 w-10 md:w-14 animate-spin" src="image/vegetable-busket.png" alt="">
-          <img class="absolute top-20 left-4 md:left-16 w-10 md:w-14 animate-spin" src="image/vegetable-busket.png" alt="">
+        <img class="absolute top-20 right-4 md:right-16 w-10 md:w-14 animate-spin" src="image/vegetable-busket.png"
+          alt="">
+        <img class="absolute top-20 left-4 md:left-16 w-10 md:w-14 animate-spin" src="image/vegetable-busket.png"
+          alt="">
 
-         </div>
-      </section>
+      </div>
+    </section>
 
   </header>
   <main>
+    <!-- Services Card Section  -->
+    <section class="md:my-32 md:mx-36 mx-6 my-6">
 
+      <h2 class="text-[#17980ltext-sm text-3xl mb-10">Services</h2>
+      <!-- Mother Div  -->
+      <div class="grid grid-cols-1 md:grid-cols-3 space-x-3 space-y-3">
+
+        <!-- Child Div  -->
+        <div class="bg-[#EFEBE3] p-8 space-y-2 rounded-2xl mt-3 ml-3 md:ml-0">
+          <!-- Image Div  -->
+          <div class="flex justify-center items-center">
+            <img src="image/service.png" alt="">
+          </div>
+          <!-- Text Div  -->
+          <div class="text-center">
+            <h3 class="text-2xl">24/7 Services</h3>
+            <p class="text-gray-500">
+              24/7 services ensure continuous availability, providing customers with support, convenience, and
+              reliability anytime, enhancing satisfaction and trust effortlessly.</p>
+          </div>
+        </div>
+
+        <div class="bg-[#EFEBE3] p-8 space-y-2 rounded-2xl">
+          <!-- Image Div  -->
+          <div class="flex justify-center items-center">
+            <img src="image/delivery.png" alt="">
+          </div>
+
+          <!-- Text Div  -->
+          <div class="text-center">
+            <h3 class="text-2xl">Fast Delivery</h3>
+            <p class="text-gray-500">
+              Fast delivery ensures quick order fulfillment, reducing wait times, enhancing customer satisfaction,
+              improving efficiency, and providing a seamless shopping experience effortlessly.</p>
+          </div>
+        </div>
+
+        <div class="bg-[#EFEBE3] p-8 space-y-2 rounded-2xl">
+          <!-- Image Div  -->
+          <div class="flex justify-center items-center">
+            <img src="image/healthy.png" alt="">
+          </div>
+
+          <!-- Text Div  -->
+          <div class="text-center">
+            <h3 class="text-2xl">Healthy Products</h3>
+            <p class="text-gray-500">
+              Healthy products offer natural, nutritious, and high-quality ingredients, promoting well-being, boosting
+              energy, and supporting a balanced lifestyle for better health.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- Popular Products Section  -->
+     <section class="bg-[#EFEBE3] h-auto">
+
+     <div class="md:mx-36 mx-6 my-6 py-32">
+      <h1 class="text-4xl text-[#179800] font-normal mb-16">Popular Products</h1>
+
+      <div class="grid grid-cols-1 md:grid-cols-2">
+
+          <!-- big card  -->
+          <div class="space-y-6 p-8 bg-gradient-to-r from-[#179800] to-green-100 rounded-2xl">
+            <h3 class="text-3xl text-white">30% off</h3>
+            <p>Discover a world of treats, toys, and essentials handpicked for</p>
+            <button class="bg-white text-black px-6 py-2 rounded-xl text-2xl font-normal">Buy Now</button>
+            <div class="flex justify-end"><img src="image/vegetable-offer.png" alt=""></div>
+          </div>
+         
+         <!-- small card div start  -->
+          <div>
+            <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 ml-6 relative">
+
+              <!-- Onion  -->
+               <div class="p-4 border-2 border-white-200 rounded-2xl flex justify-center items-center mr-4 mb-4 shadow-xl bg-[#EFEBE3] w-48 h-36">
+                <!-- img div  -->
+                 <div class="">
+                  <img class="rounded-2xl" src="image/rsz_onion86x86.jpg" alt="">
+                </div>
+                <!-- text div  -->
+                <div class="ml-2">
+                  <p class="text-sm"> <i class="fa-solid fa-star text-yellow-500"></i>4.5</p>
+                  <p class="text-sm">Onion 1KG</p>
+                  <p class="text-sm">$39.99</p>
+                </div>
+               </div>
+               <!-- w-36 h-24 md:w-48 md:h-36 -->
+
+               <!-- Tomato  -->
+               <div class="p-4 border-2 border-white-200 rounded-2xl flex justify-center items-center mr-4 mb-4 shadow-xl bg-[#EFEBE3] w-48 h-36">
+                <!-- img div  -->
+                 <div class="">
+                  <img class="rounded-2xl" src="image/rsz_tomato86x86.jpg" alt="">
+                </div>
+                <!-- text div  -->
+                <div class="ml-2">
+                  <p class="text-sm"> <i class="fa-solid fa-star text-yellow-500"></i>4.9</p>
+                  <p class="text-sm">Tomato 0.5KG</p>
+                  <p class="text-sm">$45.00</p>
+                </div>
+               </div>
+
+               <div class="p-4 border-2 border-white-200 rounded-2xl flex justify-center items-center mr-4 mb-4 shadow-xl bg-[#EFEBE3] w-48 h-36">
+                <!-- img div  -->
+                 <div class="">
+                  <img class="rounded-2xl" src="image/rsz_onion86x86.jpg" alt="">
+                </div>
+                <!-- text div  -->
+                <div class="ml-2">
+                  <p class="text-sm"> <i class="fa-solid fa-star text-yellow-500"></i>4.5</p>
+                  <p class="text-sm">Onion 1KG</p>
+                  <p class="text-sm">$39.99</p>
+                </div>
+               </div>
+
+               <div class="p-4 border-2 border-white-200 rounded-2xl flex justify-center items-center mr-4 mb-4 shadow-xl bg-[#EFEBE3] w-48 h-36">
+                <!-- img div  -->
+                 <div class="">
+                  <img class="rounded-2xl" src="image/rsz_tomato86x86.jpg" alt="">
+                </div>
+                <!-- text div  -->
+                <div class="ml-2">
+                  <p class="text-sm"> <i class="fa-solid fa-star text-yellow-500"></i>4.9</p>
+                  <p class="text-sm">Tomato 0.5KG</p>
+                  <p class="text-sm">$45.00</p>
+                </div>
+               </div>
+
+               <!-- Potato  -->
+               <div class="p-4 border-2 border-white-200 rounded-2xl flex justify-center items-center mr-4 mb-4 shadow-xl bg-[#EFEBE3] w-48 h-36">
+                <!-- img div  -->
+                 <div class="">
+                  <img class="rounded-2xl" src="image/rsz_potato86x86.jpg" alt="">
+                </div>
+                <!-- text div  -->
+                <div class="ml-2">
+                  <p class="text-sm"> <i class="fa-solid fa-star text-yellow-500"></i>5.00</p>
+                  <p class="text-sm">Potato 1KG</p>
+                  <p class="text-sm">$25.00</p>
+                </div>
+               </div>
+
+               <div class="p-4 border-2 border-white-200 rounded-2xl flex justify-center items-center mr-4 mb-4 shadow-xl bg-[#EFEBE3] w-48 h-36">
+                <!-- img div  -->
+                 <div class="">
+                  <img class="rounded-2xl" src="image/rsz_tomato86x86.jpg" alt="">
+                </div>
+                <!-- text div  -->
+                <div class="ml-2">
+                  <p class="text-sm"> <i class="fa-solid fa-star text-yellow-500"></i>4.9</p>
+                  <p class="text-sm">Tomato 0.5KG</p>
+                  <p class="text-sm">$45.00</p>
+                </div>
+               </div>
+
+               <div class="p-4 border-2 border-white-200 rounded-2xl flex justify-center items-center mr-4 mb-4 shadow-xl bg-[#EFEBE3] w-48 h-36">
+                <!-- img div  -->
+                 <div class="">
+                  <img class="rounded-2xl" src="image/rsz_potato86x86.jpg" alt="">
+                </div>
+                <!-- text div  -->
+                <div class="ml-2">
+                  <p class="text-sm"> <i class="fa-solid fa-star text-yellow-500"></i>5.00</p>
+                  <p class="text-sm">Potato 1KG</p>
+                  <p class="text-sm">$25.00</p>
+                </div>
+               </div>
+
+               <div class="p-4 border-2 border-white-200 rounded-2xl flex justify-center items-center mr-4 mb-4 shadow-xl bg-[#EFEBE3] w-48 h-36">
+                <!-- img div  -->
+                 <div class="">
+                  <img class="rounded-2xl" src="image/rsz_onion86x86.jpg" alt="">
+                </div>
+                <!-- text div  -->
+                <div class="ml-2">
+                  <p class="text-sm"> <i class="fa-solid fa-star text-yellow-500"></i>4.5</p>
+                  <p class="text-sm">Onion 1KG</p>
+                  <p class="text-sm">$39.99</p>
+                </div>
+               </div>
+
+               <div class="p-4 border-2 border-white-200 rounded-2xl flex justify-center items-center mr-4 mb-4 shadow-xl bg-[#EFEBE3] w-48 h-36">
+                <!-- img div  -->
+                 <div class="">
+                  <img class="rounded-2xl" src="image/rsz_potato86x86.jpg" alt="">
+                </div>
+                <!-- text div  -->
+                <div class="ml-2">
+                  <p class="text-sm"> <i class="fa-solid fa-star text-yellow-500"></i>5.00</p>
+                  <p class="text-sm">Potato 1KG</p>
+                  <p class="text-sm">$25.00</p>
+                </div>
+               </div>
+
+            </div>
+          </div>
+      </div>
+     </div>
+    </section>
   </main>
   <footer>
 
