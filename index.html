@@ -35,6 +35,7 @@
 </head>
 
 <body class="font-sora">
+
   <header>
     <!-- Navbar section  -->
     <nav class="border-b-2 border-green-500 md:border-b-0">
@@ -165,9 +166,11 @@
 
           <!-- big card  -->
           <div class="space-y-6 p-8 bg-gradient-to-r from-[#179800] to-green-100 rounded-2xl mb-5">
-            <h3 class="text-3xl text-white">30% off</h3>
-            <p>Discover a world of treats, toys, and essentials handpicked for</p>
-            <button class="bg-white text-black px-6 py-2 rounded-xl text-2xl font-normal">Buy Now</button>
+            <div>
+              <h3 class="text-3xl text-white">30% off</h3>
+              <p>Discover a world of treats, toys, and essentials handpicked for</p>
+              <button class="bg-white text-black px-6 py-2 rounded-xl text-2xl font-normal">Buy Now</button>
+            </div>
             <div class="flex justify-end"><img src="image/vegetable-offer.png" alt=""></div>
           </div>
 
@@ -312,7 +315,6 @@
     </section>
 
     <!-- Arrival & Offers section  -->
-
     <section class="md:mx-36 mx-6 my-6">
 
       <div class="mt-36 mb-56">
@@ -323,7 +325,7 @@
           <!-- Green  -->
           <div style=" border: 2px solid tomato;"
             class="rounded-3xl bg-[#115414] p-10 flex justify-between w-full md:w-3/5 h-92">
-            <!-- width: 780px; height: 344px; এইটা দিলে রেসপন্সিভ হয় না --> 
+            <!-- width: 780px; height: 344px; -->
 
             <!-- Text Div  -->
             <div>
@@ -339,28 +341,70 @@
             </div>
 
           </div>
+
           <!-- Blue  -->
-          <div style=" border: 2px solid tomato;" class="rounded-3xl bg-[#102861] p-6 flex justify-between relative w-full md:w-2/5 h-92 mt-5 md:mt-0">
+          <div style=" border: 2px solid tomato;"
+            class="rounded-3xl bg-[#102861] p-6 flex justify-between relative w-full md:w-2/5 h-92 mt-5 md:mt-0">
             <!-- width: 520px; height: 344px;  -->
             <!-- Text Div  -->
-             <div>
+            <div>
               <img class="mb-4" src="image/india-gate-logo.png" alt="">
               <p class="mb-4 text-white text-xl px-8 py-4 rounded-2xl bg-[#2A4D97]"">World’s No.1 Rice</p>
-              <h1 class="mb-4 text-3xl text-white"><span class="font-normal">UP to</span> <span class="font-bold">40%
-                OFF</span></h1>
-             </div>
-             <!-- image div  -->
-              <div class="flex">
-                <img src="image/india-gate-mock-up.png" alt="">
-              </div>
+              <h1 class=" mb-4 text-3xl text-white"><span class="font-normal">UP to</span> <span class="font-bold">40%
+                  OFF</span></h1>
+            </div>
+            <!-- image div  -->
+            <div class="flex">
+              <img src="image/india-gate-mock-up.png" alt="">
+            </div>
           </div>
+
         </div>
       </div>
     </section>
+
   </main>
-  <footer>
+
+  <footer class="bg-[#179800]">
+
+    <section class="">
+      <div class="flex justify-between md:mx-36 mx-6 my-6">
+
+        <!-- part 1 -->
+        <div class="mt-60 mb-32 space-y-5">
+          <img src="image/logo-footer.png" alt="">
+          <p class="text-white">Discover a world of treats, toys, and <br> essentials handpicked for your furry <br>
+            friends</p>
+        </div>
+
+        <!-- Part 2 - Link  -->
+        <div class="mt-56 mb-36">
+          <ul>
+            <li class="text-white mb-8"><a href=""></a>Product</li>
+            <li class="text-white mb-8"><a href=""></a>Services</li>
+            <li class="text-white"><a href=""></a>Contact Us</li>
+          </ul>
+
+        </div>
+
+        <!-- part-3-icons  -->
+        <div class="mt-56 mb-36 flex flex-col justify-end items-start space-y-4">
+          <div class="">
+            <h3 class="text-white ">Follow Us</h3>
+          </div>
+          <div class="space-x-4">
+            <button><i class="fa-brands fa-facebook text-2xl"></i></button>
+            <button><i class="fa-brands fa-linkedin text-2xl"></i></button>
+            <button><i class="fa-brands fa-youtube text-2xl"></i></button>
+            <button><i class="fa-brands fa-instagram text-2xl"></i></button>
+          </div>
+        </div>
+
+      </div>
+    </section>
 
   </footer>
+
 </body>
 
 </html>
